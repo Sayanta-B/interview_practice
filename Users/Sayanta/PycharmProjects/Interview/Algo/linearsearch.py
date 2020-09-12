@@ -3,6 +3,7 @@ n=4
 pos=-1
 def linear(ls,n):
     i=0
+    """Using while loop"""
     # while i<len(ls):
     #
     #     if ls[i]==n:
@@ -10,6 +11,7 @@ def linear(ls,n):
     #         return True
     #     i+=1
     # return False
+    """Using for loop"""
     for i in range(len(ls)):
         if ls[i]==n:
     # for i in ls:
@@ -23,6 +25,4 @@ if linear(ls,n):
 else:
     print("Not Found")
 
-for i in range(4):
-    print(linear(ls,n))
 
